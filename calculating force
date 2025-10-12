@@ -1,0 +1,12 @@
+int main() {
+    float mass, acceleration, force;
+    printf("Enter mass (in kilograms): ");
+    scanf("%f", &mass);
+
+    printf("Enter acceleration (in meters per second squared): ");
+    scanf("%f", &acceleration);
+    force = mass * acceleration;
+    printf("Force = %.2f Newtons\n", force);
+
+    return 0;
+}
